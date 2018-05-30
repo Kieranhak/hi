@@ -1,3 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
 from urllib.request import urlopen
 from xml.dom import minidom
 import collections
@@ -34,3 +41,5 @@ print(collections.Counter(words).most_common(5))
 print(feed)
 # Display the number of lines
 print("There are %d lines in this feed" %feed.count("\n"))
+</body>
+</html>
